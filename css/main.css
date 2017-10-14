@@ -10,22 +10,19 @@
 	height: 860px;
 }
 
+body{
+	margin: 0;
+}
+
 #logo {
 	height: 100px;
 	width: 100px;
 	position: relative;
-	top: 100px;
+	top: 0px;
 	left: 0;
-	right: 20px;
+	right: 0px;
 	padding: 1.5em 0 1.5em 0;
 	overflow: hidden;
-}
-
-#header:before {
-	content: '';
-	display: inline-block;
-	vertical-align: middle;
-	height: 100%;
 }
 
 #header .inner {
