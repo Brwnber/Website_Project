@@ -1,4 +1,4 @@
-#header {
+.header {
 	position: relative;
 	background-image: url("../Assets/studio01.jpg");
 	background-size: cover;
@@ -14,17 +14,7 @@ body{
 	margin: 0;
 }
 
-#logo {
-	height: 100px;
-	width: 100px;
-	top: 0px;
-	left: 0;
-	right: 0px;
-	padding: 1.5em 0 1.5em 0;
-	overflow: hidden;
-}
-
-#header .inner {
+.header .inner {
 	position: relative;
 	z-index: 1;
 	margin: 0;
@@ -32,11 +22,11 @@ body{
 	vertical-align: middle;
 }
 
-#header header {
+.header header {
 	display: inline-block;
 }
 
-#header h2 {
+.header h2 {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	font-size: 20px;
@@ -50,34 +40,47 @@ body{
 	display: table;
 }
 
-#nav {
-	display: flex;
+#logo {
+	height: 100px;
+	width: 100px;
+	top: 0px;
+	left: 0;
+	right: 0px;
+	padding: 1.5em 0 1.5em 0;
+	overflow: hidden;
 }
 
-#nav ul{
-	float: right;
+.inner-nav{
+	height: 75px;
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	margin-left: 400px;
+}
+
+.inner-nav > ul{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	height: 100%
+}
+
+.primary-nav ul{
+	float: left;
 	margin: auto;
 	font-size: 11px;
 	font-weight: 400;
-	list-style: none;
+	letter-spacing: 1px;
+	text-transform: uppercase;
 	text-align: center;
-	padding: 0;
+	line-height: 1.3;
 }
 
-#nav li{
+.nav li a{
 	font-family: 'Roboto', sans-serif;
-	font-size: 1.2em;
-	line-height: 40px;
-	height: 40px;
-}
-
-#nav li a{
-	margin: 10px;
-	border-radius: 5px;
-	background: #60B99A;
-	color: #fff;
-	display: inline-block;
-	padding: 15px;
+	font-size: 20px;
+	margin: 20px;
+	list-style: none;
 	text-decoration: none;
+	color: #fff;
 }
-
