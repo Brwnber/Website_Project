@@ -133,8 +133,12 @@ body{
 }
 
 .info-container{
-	width: 655px;
+	height: 108px;
+	padding-left: 80px;
+	padding-right: 80px;
 	margin: auto;
+	background-color: #6d6d6d;
+	background-size: cover;
 }
 
 .contact{
@@ -154,48 +158,45 @@ body{
 
 .contact h4{
 	font-family: 'Roboto', sans-serif;
-	font-size: 28px
+	font-size: 16px;
 	font-weight: 300;
+	color: #ffffff;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
 
 .address h4{
 	font-family: 'Roboto', sans-serif;
-	font-size: 28px
+	font-size: 16px;
 	font-weight: 300;
+	color: #ffffff;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
 
 .hours h4{
 	font-family: 'Roboto', sans-serif;
-	font-size: 28px
+	font-size: 16px;
 	font-weight: 300;
+	color: #ffffff;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 }
 
 .contact p{
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px
-	color: #5f5f5f;
+	font-size: 16px;
+	color: #ffffff;
 }
 
 .address p{
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px
-	color: #5f5f5f;
+	font-size: 16px;
+	color: #ffffff;
 }
 
 .hours p{
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px
-	color: #5f5f5f;
-}
-
-.grey-foot{
-	padding-top: 60px;
-	background-color: #6d6d6d
-	background-size: cover;
+	font-size: 16px;
+	color: #ffffff;
 }
